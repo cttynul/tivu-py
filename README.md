@@ -3,15 +3,15 @@
 
 ## License
 ```
-                 DON'T BE A DICK PUBLIC LICENSE
-                   Version 1.1, December 2016
-                   Copyright (C) 2022 cttynul
+                             DON'T BE A DICK PUBLIC LICENSE
+                               Version 1.1, December 2016
+                               Copyright (C) 2022 cttynul
  
- Everyone is permitted to copy and distribute verbatim or modified
- copies of this license document.
+                Everyone is permitted to copy and distribute verbatim or modified
+                            copies of this license document.
 
-                 DON'T BE A DICK PUBLIC LICENSE
- TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
+                              DON'T BE A DICK PUBLIC LICENSE
+              TERMS AND CONDITIONS FOR COPYING, DISTRIBUTION AND MODIFICATION
 
 1. Do whatever you like with the original work, just don't be a dick.
 
