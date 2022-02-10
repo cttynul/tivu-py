@@ -1,0 +1,4 @@
+__pycache__/*
+lib/*.dll*
+lib/include/*
+lib/__pycache__/*
