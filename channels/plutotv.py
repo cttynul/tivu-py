@@ -11,5 +11,3 @@ def get_channels():
         url = d["stitched"]["urls"][0]["url"].split("?")[0]
         result.append({"name": channel_name, "url": url})
     return result
-
-print(get_channels())

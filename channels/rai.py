@@ -8,5 +8,3 @@ def get_channels():
         url = channel["video"]["contentUrl"]
         result.append({"name": channel_name, "url": url})
     return result
-
-print(get_channels())

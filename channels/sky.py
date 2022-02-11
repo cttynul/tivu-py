@@ -7,5 +7,3 @@ def get_channels():
         data = requests.get("https://video.sky.it/be/getLivestream?id=" + channel["id"]).json()
         result.append({"name": channel["name"], "url": data["streaming_url"]})
     return result
-
-print(get_channels())

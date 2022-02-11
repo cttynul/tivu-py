@@ -1,4 +1,6 @@
 __pycache__/*
 lib/*.dll*
+lib/*.exe*
 lib/include/*
 lib/__pycache__/*
+channels/__pycache__/*

@@ -8,5 +8,3 @@ def get_channels():
         {"name":"Motor Trend", "url":"https://sbshdlu5-lh.akamaihd.net/i/sbshdl_1@810993/master.m3u8"}
         ]
     return result
-
-print(get_channels())

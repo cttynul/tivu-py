@@ -15,5 +15,3 @@ def get_channels():
         {"name":"Cartoonito", "url":"https://live2-mediaset-it.akamaized.net/content/hls_h0_clr_vos/live/channel(la)/index.m3u8"}
         ]
     return result
-
-print(get_channels())
