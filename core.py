@@ -12,9 +12,6 @@ def initialize_player():
     return player
 
 def play_m3u(url):
-    try: player.termiate()
-    except: pass
-
     player = mpv.MPV(input_default_bindings=True, input_vo_keyboard=True, osc=True, ytdl=True)
     player.play(url)
     player.wait_until_playing()
@@ -23,13 +20,14 @@ def play_m3u(url):
 
 def choice_channel(channels):
     choice = 999999999999999999999
-    while int(choice) not in range(1, len(channels)):
+    while int(choice) not in range(0, len(channels)):
         choice = input("Inserisci il numero del canale che vuoi guardare > ")
     return choice
 
 def play_channel_internal(channels):
     choice = choice_channel(channels)
-    play_m3u(channels[int(choice)]["url"])
+    if int(choice) == 0: exit(0) 
+    else: play_m3u(channels[int(choice)]["url"])
 
 def play_channel_external(channels):
     import subprocess

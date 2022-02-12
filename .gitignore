@@ -3,4 +3,7 @@ lib/*.dll*
 lib/*.exe*
 lib/include/*
 lib/__pycache__/*
+*_p*.py
+*.m3u
 channels/__pycache__/*
+channels/mul*.py
